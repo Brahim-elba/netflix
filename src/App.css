@@ -5,7 +5,7 @@
 
 .main {
   width: 1024px;
-  min-width: 90%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -23,6 +23,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  /* width: 100%; */
 }
 
 .section {
@@ -51,4 +52,10 @@
 .pictures-section {
   scroll-snap-align: start;
   cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .pictures-section {
+    max-width: 50vw;
+  }
 }
