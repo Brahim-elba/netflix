@@ -58,4 +58,8 @@
   .pictures-section {
     max-width: 50vw;
   }
+
+  .header img {
+    width: 30%;
+  }
 }
